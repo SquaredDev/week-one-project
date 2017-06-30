@@ -19,23 +19,78 @@ Input Border Bottom (Focus): #967343
 */
 
 * {
-	background-color: #F2F1E8;
 
 }
 
-#site-header {	
-  	width: 100%;
+#wrapper {
+  background-color: #F2F1E8;
+  display: flex;
+}
 
+#site-header {
+  display: block;
 }
 
 #site-nav {
   	font-family: 'Roboto', sans-serif;
   	color: #2B2F26;
   	background-color: #FFFFFF;
+    flex-wrap: nowrap;
+}
+
+main {
+  flex-wrap: wrap;
 }
 
 main, footer {
 	font-family: 'Merriweather', serif;
 	color: #131511;
+}
 
+footer {
+  display: block;
+  background-color: #131511;
+  color: #ffffff;
+  flex-wrap: nowrap;
+}
+
+#newsletter {
+  background-image: url("./images/background-2.jpg");
+}
+
+#endless-pic {
+  height: 200px;
+}
+
+#sets-pic {
+  height: 200px;
+}
+
+#textures-pic {
+  height: 200px;
+}
+
+#tea-pic {
+  height: 150px;
+}
+
+#jars-pic {
+  height: 150px;
+}
+
+#wasabi-pic {
+  height: 150px;
+}
+
+#sippin-pic {
+  height: 150px;
+}
+
+#birdhouse-pic {
+  height: 50px;
+}
+
+#signupbox {
+  width: 500px;
+  background-color: #F2F1E8;
 }
