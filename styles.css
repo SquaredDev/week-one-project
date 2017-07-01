@@ -123,6 +123,19 @@ th, td {
   border: 1px solid #131511;
 }
 
+aside{
+  width: 150px;
+  padding: 10px;
+}
+
+aside img {
+  width: 150px;
+}
+
+aside p {
+  font-size: 12px;
+}
+
 .even {
   background-color: #F2EADD;
 }
@@ -184,6 +197,10 @@ th, td {
   line-height: 450px;
   color: #F2F1E8;
   font-weight: normal;
-
   font-size: 90px;
+}
+
+.facilities {
+  float: left;
+  width: 700px;
 }
