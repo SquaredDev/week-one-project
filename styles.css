@@ -24,18 +24,29 @@ Input Border Bottom (Focus): #967343
 
 #wrapper {
   background-color: #F2F1E8;
-  display: flex;
 }
 
 #site-header {
-  display: block;
+    	background-color: #FFFFFF;
+      position: relative;
+}
+
+#logo {
+  position: absolute;
+  height: 50px;
+  top: 0;
+  left: 0;
+  
 }
 
 #site-nav {
   	font-family: 'Roboto', sans-serif;
   	color: #2B2F26;
-  	background-color: #FFFFFF;
+
     flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+
 }
 
 main {
@@ -56,6 +67,7 @@ footer {
 
 #newsletter {
   background-image: url("./images/background-2.jpg");
+  background-size: cover;
 }
 
 #endless-pic {
