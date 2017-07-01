@@ -29,14 +29,25 @@ Input Border Bottom (Focus): #967343
 #site-header {
     	background-color: #FFFFFF;
       position: relative;
+      width: 100%;
+}
+
+a:active {
+  text-decoration: none;
+  color: #968772;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #CD5D67
 }
 
 #logo {
   position: absolute;
   height: 50px;
-  top: 0;
-  left: 0;
-  
+  top: 12px;
+  left: 12px;
+
 }
 
 #site-nav {
@@ -46,11 +57,40 @@ Input Border Bottom (Focus): #967343
     flex-wrap: nowrap;
     display: flex;
     justify-content: center;
+}
 
+h1{
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+nav p a {
+  color: #2B2F26;
+  font-size: 1em;
+  padding: 0px 30px 0px 30px;
 }
 
 main {
   flex-wrap: wrap;
+  margin: 25px 50px 25px 50px;
+}
+
+main p a {
+  color: #968772;
+}
+main p a:hover {
+  color: #967343;
 }
 
 main, footer {
@@ -99,7 +139,9 @@ footer {
 }
 
 #birdhouse-pic {
-  height: 50px;
+  height: 100px;
+  float: left;
+  padding-right: 15px;
 }
 
 #signupbox {
