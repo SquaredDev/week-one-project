@@ -32,10 +32,14 @@ Input Border Bottom (Focus): #967343
       position: relative;
       width: 100%;
 }
+a {
+  transition: color 0.5s ease;
+}
 
 a:active {
   text-decoration: none;
   color: #968772;
+
 }
 
 a:hover {
@@ -51,6 +55,7 @@ a:hover {
   width: 50px;
   top: 8px;
   left: 8px;
+  transition: background-image 0.5s ease;
 }
 
 #logo:hover {
@@ -217,9 +222,13 @@ aside p {
 
 #banner-background {
   background-image: url("./images/background-3.jpg");
-  background-attachment: scroll;
+  /*background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;*/
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #banner-background h1 {
