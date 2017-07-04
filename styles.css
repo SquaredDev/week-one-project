@@ -24,6 +24,7 @@ Input Border Bottom (Focus): #967343
 
 #wrapper {
   background-color: #F2F1E8;
+  /*background-color: red;*/
 }
 
 #site-header {
@@ -183,7 +184,7 @@ aside p {
   width: 500px;
   height: 500px;
   background-color: white;
-  order 1
+  order -1
 }
 
 #banner-background {
