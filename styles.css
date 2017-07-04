@@ -160,7 +160,13 @@ aside p {
 #newsletter {
   background-image: url("./images/background-2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F2EADD;
   order: -1;
+}
+
+#newsletter h3 {
+  font-weight: lighter;
 }
 
 .picture-tags {
