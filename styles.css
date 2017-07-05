@@ -91,8 +91,48 @@ h3 {
   text-align: left;
 }
 
+#index h3{
+  text-align: center;
+}
+
 p {
   line-height: 2;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  color: #2B2F26;
+  font-size: 1em;
+}
+
+#signupbox {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  order: 1;
+}
+
+#nameInput, #emailInput {
+  text-decoration: underline;
+  background-color: #FFFFFF;
+  width: 100%;
+  border: 0px 0px 1px 0px solid 968772;
+}
+
+#signupButton {
+  width: 300px;
+  height: 50px;
+  background: #968772;
+  color: #FFFFFF;
+  transition: background-color 0.5s ease;
+}
+
+#signupButton:hover {
+  background-color: #967343;
+  align: center;
+
+
+
 }
 
 main p {
@@ -174,37 +214,44 @@ aside p {
   font-weight: lighter;
 }
 
-.picture-tags {
+.picture-tags div{
   display: flex;
-  flex-flow: row;
+  margin: 20px;
+}
+
+.picture-tags p{
+  position: relative;
+  color: #F2EADD;
+  background-color: #968772;
+  padding: 5px;
 }
 
 #endless-pic {
-  height: 200px;
+  height: 400px;
 }
 
 #sets-pic {
-  height: 200px;
+  height: 400px;
 }
 
 #textures-pic {
-  height: 200px;
+  height: 400px;
 }
 
 #tea-pic {
-  height: 150px;
+  height: 200px;
 }
 
 #jars-pic {
-  height: 150px;
+  height: 200px;
 }
 
 #wasabi-pic {
-  height: 150px;
+  height: 200px;
 }
 
 #sippin-pic {
-  height: 150px;
+  height: 200px;
 }
 
 #birdhouse-pic {
@@ -213,12 +260,7 @@ aside p {
   padding-right: 15px;
 }
 
-#signupbox {
-  width: 500px;
-  height: 500px;
-  background-color: white;
-  order: 1;
-}
+
 
 #banner-background {
   background-image: url("./images/background-3.jpg");
@@ -241,4 +283,13 @@ aside p {
 .fgroup {
   display: flex;
   justify-content: space-between;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2 {
+  display: flex;
 }
