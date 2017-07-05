@@ -20,23 +20,29 @@
 	<main>
 
 		<div id="signUpBox">
-			<h3>Sign Up for Our Weekly Newsletter</h3>
+			<div id="SUbox"	>
+				<h3>Sign Up for Our Weekly Newsletter</h3>
 
-			<p>Stay up to date with events, activities, news and specials.</p>
+				<p>Stay up to date with events, activities, news and specials.</p>
 
-			<form class="name" action="index.html" method="post">
-					<input id="nameInput" type="text" name="Name" placeholder="Name" size="100">
-					<br>
-					<input id="emailInput" type="email" name="Email" placeholder="E-mail" size="100">
-					<br>
-					<input id="signupButton" type="submit" name="Submit" value="Submit">
-			</form>
+				<form class="name" method="post">
+					<span id="nameForm">
+						<input id="nameInput" type="text" name="Name" placeholder="Name" size="80">
+					</span>
+					<span id="emailForm">
+						<input id="emailInput" type="email" name="Email" placeholder="E-mail" size="80">
+					</span>
+					<span id="button">
+						<input id="signupButton" type="submit" name="Submit" value="Submit">
+					</span>
+				</form>
+			</div>
 		</div>
 
 	</main>
 	</body>
 
-</div>
+	</div>
 <script src="./newsletter.js"></script>
 
 </html>
