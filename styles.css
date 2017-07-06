@@ -41,6 +41,10 @@ a:hover {
   color: #CD5D67
 }
 
+a:active{
+  color: #968772;
+}
+
 #logo {
   background-image: url(./images/bent-creek-logo.png);
   background-size: cover;
@@ -62,9 +66,6 @@ a:hover {
   left: 8px;
 }
 
-#active{
-  color: #968772;
-}
 
 #site-nav {
   	font-family: 'Roboto', sans-serif;
@@ -277,49 +278,65 @@ span {
 }
 
 #endless {
-flex-grow: 3;
-width: 100%;
+
+
 }
 
 #endless-pic {
+  flex-grow: 3;
   display: block;
   height: 400px;
-  width: 100%;
-  position: absolute;
+  position: relative;
   overflow: hidden;
 }
 
 #sets-pic {
+  flex-grow: 1;
+  display: block;
   height: 400px;
+  position: relative;
+  overflow: hidden;
 }
 
 #textures-pic {
+  flex-grow: 1;
+  display: block;
   height: 400px;
+  position: relative;
+  overflow: hidden;
 }
 
 #tea-pic {
+  flex-grow: 1;
+  display: block;
   height: 200px;
 }
 
 #jars-pic {
+  flex-grow: 1;
+  display: block;
   height: 200px;
+  position: relative;
+  overflow: hidden;
 }
 
 #wasabi {
-  flex-grow: 2;
-  width: 100%;
 }
 
 #wasabi-pic {
+  flex-grow: 2;
   display: block;
   height: 200px;
-  width: 100%;
   position: relative;
   overflow: hidden;
 }
 
 #sippin-pic {
+  flex-grow: 1;
+  display: block;
   height: 200px;
+  position: relative;
+  overflow: hidden;
 }
 
 #birdhouse-pic {
