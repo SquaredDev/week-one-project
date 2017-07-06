@@ -168,9 +168,13 @@ input {
 #signupButton:hover {
   background-color: #967343;
   align: center;
+}
 
-
-
+.quote {
+  font-style: italic;
+  border-left: 2px solid #968772;
+  padding-left: 40px;
+  margin-top: 30px;
 }
 
 main p {
