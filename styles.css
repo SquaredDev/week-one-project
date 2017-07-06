@@ -278,11 +278,15 @@ span {
 
 #endless {
 flex-grow: 3;
+width: 100%;
 }
 
 #endless-pic {
-  max-height: 400px;
+  display: block;
+  height: 400px;
   width: 100%;
+  position: absolute;
+  overflow: hidden;
 }
 
 #sets-pic {
@@ -303,11 +307,15 @@ flex-grow: 3;
 
 #wasabi {
   flex-grow: 2;
+  width: 100%;
 }
 
 #wasabi-pic {
-  max-height: 200px;
+  display: block;
+  height: 200px;
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 #sippin-pic {
